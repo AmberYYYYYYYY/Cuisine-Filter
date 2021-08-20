@@ -2,9 +2,9 @@
 ## Introduction
 Cuisine filter is a grasshopper tool that can classify the restaurant in a region by nations and count the number of restaurants in every 900 square meters to indicate the density and proportion of cuisines from different nations. This tool could be a good approach for foodies to lead them into delicious discoveries in a different way. 
 It could help food lovers to visualize and check the proportion of a nation of restaurants they want to choose within 1km of their location. Meanwhile, people could bring dishes options into their consideration while choosing a place to hang out since this tool give an opportunity to see the restaurant density of any nation. eg: you could choose an area where occupy by  French restaurants or any other nations.
-## Site *Tokyo + Paris*
+## Site_*Tokyo + Paris*
 Michelin stars originate from French, so Paris was the city that has the most Michelin-starred restaurants in the world. However from the past decade, Tokyo takes over this position, and now， Tokyo and Paris are the top 1 and 2 cities that have the most Michelin Starred restaurants in the world. And this Michelin Restaurant selection indicates the food quality and richness of a city，which is my reason choose these two cities. 
-## Project feature：
+## Project feature
 - Main functionality is to show the proportion of Japanese cuisine & French cuisine in total cuisine per unit area（900㎡）
 - Secondary functionality is to show the coverage of general cuisine in a city
 - You can also choose the nation you want to show its proportion/density
