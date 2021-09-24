@@ -1,7 +1,7 @@
 #  Cuisine filter :shallow_pan_of_food:
 ## Introduction
-Cuisine filter is a grasshopper tool that can classify the restaurant in a region by nations and visualize the spatial distribution of each kind of them in every 900 square meters. This tool can also indicate the amount and proportion of cuisines from different nations by a serious of pan charts. This tool could be a good approach for foodies to lead them into delicious discoveries in a different way,and comparison food-culture diversity in different city. 
-It could help food lovers to visualize and check the proportion of a nation of restaurants they want to choose within 1km of their location. Meanwhile, people could bring dishes options into their consideration while choosing a place to hang out since this tool give an opportunity to see the restaurant density of any nation. eg: you could choose an area where occupy by  French restaurants or any other nations.
+Cuisine filter is a grasshopper tool that can classify the restaurant in a region by nations and visualize the spatial distribution of each kind of them in every 900 square meters (L-city scale). Identify a series of food courts with accurate location for user to choose and explore (M-choose an area and zoom in) . This tool can also indicate the amount and proportion of cuisines from different nations by a serious of pan charts. This tool could be a good approach for foodies to lead them into delicious discoveries in a different way,and comparison food-culture diversity in different city. 
+It could also be used by a time based method. Meanwhile, people could bring dishes options into their consideration while choosing a place to hang out since this tool give an opportunity to see the restaurant density of any nation. eg: you could choose an area where occupy by  French restaurants or any other nations.
 ## Site_*Tokyo + Paris*
 Michelin stars originate from French, so Paris was the city that has the most Michelin-starred restaurants in the world. However from the past decade, Tokyo takes over this position, and now， Tokyo and Paris are the top 1 and 2 cities that have the most Michelin Starred restaurants in the world. And this Michelin Restaurant selection indicates the food quality and richness of a city，which is my reason choose these two cities. 
 ## Project feature
@@ -9,7 +9,7 @@ Michelin stars originate from French, so Paris was the city that has the most Mi
 - Secondary functionality is to show the coverage of general cuisine in a city
 - You can also choose the nation you want to show its proportion/density
 ## Techiniques
-There are 2 techniques in this tool, the first one is **parametric rectangular** and the second one is **Grid Field**.
+There are 4 techniques in this tool, **Grid Field**/ **convex hull**/ **metaball**/**cloest point**
 - **Point to region-rectaugular**: 
   import the point data of different cuisine and draw foursquare around to show the coverage of cuisine and also provide curves for grid field.
 - **Grid Field**:
