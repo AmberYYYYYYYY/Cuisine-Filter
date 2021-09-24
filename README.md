@@ -9,7 +9,7 @@ It could also be used in a time-based method. e.g., see the cuisine distribution
 Michelin stars originate from French, so Paris was the city that has the most Michelin-starred restaurants in the world. However from the past decade, Tokyo takes over this position, and now， Tokyo and Paris are the top 1 and 2 cities that have the most Michelin Starred restaurants in the world. And this Michelin Restaurant selection indicates the food quality, richness and diversity of a city，which is my reason choose these two cities. 
 ## Project feature
 - L scale: Show the spatial distribution of 3 kind of cuisines (choose by user) ![gif draft](https://user-images.githubusercontent.com/88841215/134677683-9f49c5b3-9d09-41af-88cb-424c2214ed9d.gif)
-  imagine 1: Change of Spatial distribution in Paris [every 2 hour]
+  imagine 1: Change of Spatial distribution in Paris [10:00-24:00/every 2 hour]
 - M scale: Display accurate location of food courts ( classify base on nations) + navigate user to the cloest one![zoom in](https://user-images.githubusercontent.com/88841215/134680086-ef708a9a-f6af-46c3-873c-671d37faa287.png)
 
 - Annotation: Proportion and amount of cuisines + total area of different food courts + distance to food court
