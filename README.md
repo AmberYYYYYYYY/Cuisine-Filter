@@ -13,6 +13,7 @@ Michelin stars originate from French, so Paris was the city that has the most Mi
 - M scale: Display accurate location of food courts ( classify base on nations) + navigate user to the cloest one![zoom in](https://user-images.githubusercontent.com/88841215/134680086-ef708a9a-f6af-46c3-873c-671d37faa287.png)
 
 - Annotation: Proportion and amount of cuisines + total area of different food courts + distance to food court
+  
   **all feature above could be apply in both general and a particular moment**
 - transportation convenience level: feature
 ## Techiniques
@@ -28,10 +29,10 @@ There are 4 techniques in this tool, **Grid Field**/ **convex hull**/ **metaball
 - **closet point**:
   implementing the navigation function
 ## Installation + Usage
--step1：Download the release here：https://github.com/AmberYYYYYYYY/Test-mappingtool/releases/tag/0.1
--step2：Open rhino and open file in your grasshopper
--step3: Set a overpass API file for the **file path** componment
--step4: explore functions you interested 
+- step1：Download the release here：https://github.com/AmberYYYYYYYY/Test-mappingtool/releases/tag/V0.7
+- step2：Open rhino and open file in your grasshopper
+- step3: Set a overpass API file for the **file path** componment
+- step4: Explore functions you interested :)
 ## Advanced function
   shortest walk path from current location to closest destination (in process)
 
