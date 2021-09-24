@@ -1,31 +1,39 @@
 #  Cuisine filter :shallow_pan_of_food:
 ## Introduction
-Cuisine filter is a grasshopper tool that can classify the restaurant in a region by nations and visualize the spatial distribution of each kind of them in every 900 square meters (L-city scale). Identify a series of food courts with accurate location for user to choose and explore (M-choose an area and zoom in) . This tool can also indicate the amount and proportion of cuisines from different nations by a serious of pan charts. This tool could be a good approach for foodies to lead them into delicious discoveries in a different way,and comparison food-culture diversity in different city. 
-It could also be used by a time based method. Meanwhile, people could bring dishes options into their consideration while choosing a place to hang out since this tool give an opportunity to see the restaurant density of any nation. eg: you could choose an area where occupy by  French restaurants or any other nations.
+Cuisine filter is a grasshopper tool design for food-eater to help them understanding city food culture and discover meishi differently.
+
+It can classify the restaurant in a region by any nation and visualize each kind's spatial distribution in every 900 square meters (L-city scale). Identify a series of food courts with accurate locations for users to choose and explore (M-choose an area and zoom in). This tool can also indicate the amount and proportion of cuisines from different nations in annotation (pan charts+bar charts). This tool could be a promising approach for food eaters to lead them into delicious discoveries in another way and compare food-culture diversity in different cities. 
+
+It could also be used in a time-based method. e.g., see the cuisine distribution changes in a day to find out the best time to enjoy Japanese food, or check the Italian restaurant distribution anytime you want to eat and find the nearest food court from your current location. In this way, people could bring dishes options into their consideration while choosing a place to hang out since this tool allow seeing the restaurant density of any nation. 
 ## Site_*Tokyo + Paris*
-Michelin stars originate from French, so Paris was the city that has the most Michelin-starred restaurants in the world. However from the past decade, Tokyo takes over this position, and now， Tokyo and Paris are the top 1 and 2 cities that have the most Michelin Starred restaurants in the world. And this Michelin Restaurant selection indicates the food quality and richness of a city，which is my reason choose these two cities. 
+Michelin stars originate from French, so Paris was the city that has the most Michelin-starred restaurants in the world. However from the past decade, Tokyo takes over this position, and now， Tokyo and Paris are the top 1 and 2 cities that have the most Michelin Starred restaurants in the world. And this Michelin Restaurant selection indicates the food quality, richness and diversity of a city，which is my reason choose these two cities. 
 ## Project feature
-- Main functionality is to show the proportion of Japanese cuisine & French cuisine in total cuisine per unit area（900㎡）
-- Secondary functionality is to show the coverage of general cuisine in a city
-- You can also choose the nation you want to show its proportion/density
+- L scale: Show the spatial distribution of 3 kind of cuisines (choose by user) ![gif draft](https://user-images.githubusercontent.com/88841215/134677683-9f49c5b3-9d09-41af-88cb-424c2214ed9d.gif)
+  imagine 1: Change of Spatial distribution in Paris [every 2 hour]
+- M scale: Display accurate location of food courts ( classify base on nations) + navigate user to the cloest one![zoom in](https://user-images.githubusercontent.com/88841215/134680086-ef708a9a-f6af-46c3-873c-671d37faa287.png)
+
+- Annotation: Proportion and amount of cuisines + total area of different food courts + distance to food court
+  **all feature above could be apply in both general and a particular moment**
+- transportation convenience level: feature
 ## Techiniques
 There are 4 techniques in this tool, **Grid Field**/ **convex hull**/ **metaball**/**cloest point**
 - **Point to region-rectaugular**: 
   import the point data of different cuisine and draw foursquare around to show the coverage of cuisine and also provide curves for grid field.
 - **Grid Field**:
   import 3 sets of curves (all/French/Japanese）separately from the last step and transfer them to density-based grids.
-![Tokyo](https://user-images.githubusercontent.com/88841215/130212946-34214782-d444-4af9-bab7-34f02eee5b09.png)
-imagine1.Tokyo
-![Paris](https://user-images.githubusercontent.com/88841215/130212965-369947e7-b426-41cd-80ef-6b2216221111.png)
-imagine2.Paris
+- **Convex hull**:
+  identify a series food courts which contain a minimise amount of restaurants
+- **metaball**: 
+  visualize the transportation convenience for reference
+- **closet point**:
+  implementing the navigation function
 ## Installation + Usage
 -step1：Download the release here：https://github.com/AmberYYYYYYYY/Test-mappingtool/releases/tag/0.1
--step2：open rhino and open file in your grasshopper
--step3: set a overpass API file for the **file path** componment
-## Development
-- Works in future： 
-- How to show the proportion of a nation more accurate
-- How to classify the traffic convenience of these area by adding another techinique.
+-step2：Open rhino and open file in your grasshopper
+-step3: Set a overpass API file for the **file path** componment
+-step4: explore functions you interested 
+## Advanced function
+  shortest walk path from current location to closest destination (in process)
 
 
 
