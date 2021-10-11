@@ -41,7 +41,7 @@ There are 4 techniques in this tool, **Grid Field**/ **convex hull**/ **metaball
 ## Project Structure
 ## Installation + Usage
 Tutorial video
-- step1：Download the release here：https://github.com/AmberYYYYYYYY/Test-mappingtool/releases/tag/V0.7
+- step1：Download the release here：https://github.com/AmberYYYYYYYY/Cuisine-Filter/releases/tag/V1.0
 - step2：Open rhino and open file in your grasshopper,download all grasshopper plugins required
 - step3: Set a overpass API file for the **file path** componment
 - step4: Set Rhino workplace to white background
