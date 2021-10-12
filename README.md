@@ -39,6 +39,7 @@ There are 4 techniques in this tool, **Grid Field**/ **convex hull**/ **metaball
 - **closet point**:
   implementing the navigation function
 ## Project Structure
+![struture_画板 1](https://user-images.githubusercontent.com/88841215/136876122-22286e1c-8203-4dee-872a-97b5b03db671.png)
 ## Installation + Usage
 Tutorial video
 - step1：Download the release here：https://github.com/AmberYYYYYYYY/Cuisine-Filter/releases/tag/V1.0
