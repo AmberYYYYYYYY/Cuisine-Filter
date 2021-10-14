@@ -25,6 +25,14 @@ The main functions of this tool are:
   imagine 4: infomation of Paris cuisine with time changed 
   ![Paris+Tokyo General](https://user-images.githubusercontent.com/88841215/136795036-7f8ab1b2-6c2a-4a52-94e0-1778a16d89b4.jpg)
   imagine 5: Diagram Paris+Tokyo  
+## Project Structure
+![struture_画板 1](https://user-images.githubusercontent.com/88841215/136876122-22286e1c-8203-4dee-872a-97b5b03db671.png)
+## Installation + Usage
+- step1：Download the release here：https://github.com/AmberYYYYYYYY/Cuisine-Filter/releases/tag/V1.0
+- step2：Open rhino and open file in your grasshopper,download all grasshopper plugins required
+- step3: Set a overpass API file for the **file path** componment
+- step4: Set Rhino workplace to white background
+- step5: Follow the project structure and instruction at right hand side of grasshopper work place. Explore functions you interested :)
 ## Techiniques
 There are 4 techniques in this tool, **Grid Field**/ **convex hull**/ **metaball**/**cloest point**
 - **Point to region-rectaugular**: 
@@ -37,15 +45,7 @@ There are 4 techniques in this tool, **Grid Field**/ **convex hull**/ **metaball
   visualize the transportation convenience for reference
 - **cloeset point**:
   implementing the navigation function
-## Project Structure
-![struture_画板 1](https://user-images.githubusercontent.com/88841215/136876122-22286e1c-8203-4dee-872a-97b5b03db671.png)
-## Installation + Usage
-- step1：Download the release here：https://github.com/AmberYYYYYYYY/Cuisine-Filter/releases/tag/V1.0
-- step2：Open rhino and open file in your grasshopper,download all grasshopper plugins required
-- step3: Set a overpass API file for the **file path** componment
-- step4: Set Rhino workplace to white background
-- step5: Follow the project structure and instruction at right hand side of grasshopper work place. Explore functions you interested :)
-## Future Development
+## Seondary Usage
 - Apply on other data set (in process)
 ![greenspace Paris](https://user-images.githubusercontent.com/88841215/136799505-6504ebdb-2bef-409d-a374-f53bc06d8c43.jpg)
 ![greenspace Tokyo](https://user-images.githubusercontent.com/88841215/136799543-54db1b74-0250-4664-bd94-4253ef08056f.jpg)
